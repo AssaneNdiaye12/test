@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations Historiques</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+        }
+        #map-container {
+            width: 40%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        #content {
+            width: 75%;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        #info, #gallery, #comments {
+            margin-bottom: 20px;
+        }
+        .gallery-image {
+            width: 32%;
+            height: 70%;
+            margin-bottom: 10px;
+        }
+        h2, h3 {
+            margin-top: 0;
+        }
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <img src="images/dakar_plateau_map.jpg" alt="Carte de Dakar Plateau" id="map">
+    </div>
+    <div id="content">
+        <div id="info">
+            <h2>Informations Historiques sur Dakar Plateau</h2>			
+            <p>Dakar Plateau est une commune historique située au cœur de Dakar. C'est le centre administratif et économique de la ville, abritant de nombreux bâtiments gouvernementaux et institutions financières.</p>
+            <h3>Naissance et organisation</h3>
+			<p>Les premières populations du quartier sont les Lébous, originaires du Djolof, qui se sont installés à Dakar Plateau après avoir transité par Yoff et Ouakam. Ils ont trouvé sur place les Socés et ont établi une organisation sociale autour de la pêche, de l'agriculture et de l'élevage. Les Lébous ont su préserver leur autonomie malgré l'arrivée des Européens. L'organisation sociale des Lébous comprenait des dignitaires tels que les Saltiguis, Diarafs, Ndeye Diambours et le Grand Sérigne de Dakar.</p>
+			<h3>Monuments et places historiques</h3>
+			<ul>La Cathédrale du Souvenir Africain</ul>
+			<ul>Le Palais Présidentiel</ul>
+			<ul>Le Musée Théodore Monod d'Art Africain</ul>
+			<ul>La Grande Mosquée de Dakar</ul>
+			<ul>La Chambre de Commerce</ul>
+			<ul>La Place du Tirailleur Sénégalais</ul>
+			<ul>La Place du Souvenir Africain</ul>
+			<ul>La Place de l'Indépendance</ul>
+			<ul>La Place de la Gare</ul>
+			<ul>Le Musée des Civilisations Noires</ul>
+			<ul>Le Fromager (Dengni thi Mboth), un arbre sacré pour la communauté Lébous.</ul>
+			<h3>Figures historiques</h3>
+			<ul><h4>Dial Diop</h4></ul>
+			<p>Dial Diop, issu de la dynastie Wolof noble du Cayor, a été le premier Grand Sérigne de Dakar, une position religieuse et judiciaire importante créée en 1790.</p>
+			<ul><h4>Auguste Léopold Protet</h4></ul>
+			<p>Gouverneur du Sénégal en 1850, Protet a pris possession de Dakar au nom de la France en 1857, contribuant significativement à la fondation de la ville de Dakar.</p>
+			
+        </div>
+        <div id="gallery">
+            <h3>Galerie</h3>
+            <img src="images/Image1DP.jpg" alt="Galerie Dakar Plateau" class="gallery-image">
+            <img src="images/Image2DP.jpg" alt="Galerie Dakar Plateau" class="gallery-image">
+			<img src="images/Image3DP.jpg" alt="Galerie Dakar Plateau" class="gallery-image">
+            <!-- Ajoutez d'autres images de la galerie ici -->
+        </div>
+        <div id="comments">
+            <h3>Commentaires</h3>
+            <textarea rows="5" placeholder="Laissez un commentaire..."></textarea>
+            <button>Soumettre</button>
+            <!-- Liste des commentaires -->
+            <div>
+                <p><strong>Assane Ndiaye:</strong> Très bel endroit!</p>
+                <p><strong>Momadou Diop:</strong> J'adore l'histoire de cette commune.</p>
+                <!-- Ajoutez d'autres commentaires ici -->
+            </div>
+            <a href="index.html">Retour à la carte</a>
+        </div>
+    </div>
+</body>
+</html>
